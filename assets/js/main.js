@@ -1,3 +1,21 @@
+// funcionalidad del dropdown
+function myFunction() {
+	document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+	if (!event.target.matches('.dropbtn')) {
+
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}
 
 // funcionalidad de los botones : Sprint1, Sprint2, Sprint3
 function botones(tema) {
@@ -20,6 +38,4 @@ function botones(tema) {
      tema2.style.display  = "none";
      tema3.style.display  = "block";
    }
-
-
   }
