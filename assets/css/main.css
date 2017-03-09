@@ -37,6 +37,8 @@ input {
   padding: 20px 30px;
   border: 1px solid black;
 }
+
+/* funcionalidad logout */
 .div-salir-coder{
   width: 100vw;
   height: 100vh;
