@@ -40,7 +40,7 @@ function botones(tema) {
    }
   }
 
-/*funcionalidades de la página coders
+// funcionalidades de la página coders
 document.getElementById("enviar1").onclick = function() {
   var respuestasBuenas = 0;
   var respuestasMalas = 0;
@@ -51,4 +51,39 @@ document.getElementById("enviar1").onclick = function() {
   if(respuesta1[0] == false && respuesta1[1] == false && respuesta1[2] == false){
     alert("Porfavor, completar la pregunta número 1");
   }
-} */
+  if(respuesta2[0] == false && respuesta2[1] == false && respuesta2[2] == false){
+    alert("Porfavor, completar la pregunta número 2");
+  }
+  if(respuesta3[0] == false && respuesta3[1] == false && respuesta3[2] == false){
+    alert("Porfavor, completar la pregunta número 3");
+  }
+  /* else {
+  op1[0].checked ? cb++ : cm++;
+  op2[2].checked ? cb++ : cm++;
+  op3[2].checked ? cb++ : cm++;
+   document.getElementById("quiz1").innerHTML ="Tienes " +cb + " correcta(s)";
+  }
+}
+
+document.getElementById("bt2").onclick = function(){
+  var cb = 0;  //cuenta buenas
+  var cm= 0; // cuenta malas
+  var op1 = document.getElementsByName("p4");
+  var op2 = document.getElementsByName("p5");
+  var op3 = document.getElementsByName("p6");
+
+  if(op1[0].checked == false && op1[1].checked == false && op1[2].checked == false ){
+    alert ("Responder la pregunta 1")
+  }
+  else if(op2[0].checked == false && op2[1].checked == false && op2[2].checked == false ){
+    alert ("Responder la pregunta 2")
+  }
+  else if(op3[0].checked == false && op3[1].checked == false && op3[2].checked == false ){
+    alert ("Responder la pregunta 3")
+  }
+  else {
+  op1[1].checked ? cb++ : cm++;
+  op2[0].checked ? cb++ : cm++;
+  op3[1].checked ? cb++ : cm++;
+ document.getElementById("quiz2").innerHTML ="Tienes " +cb + " correcta(s)";*/
+}
