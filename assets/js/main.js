@@ -39,3 +39,16 @@ function botones(tema) {
      tema3.style.display  = "block";
    }
   }
+
+/*funcionalidades de la página coders
+document.getElementById("enviar1").onclick = function() {
+  var respuestasBuenas = 0;
+  var respuestasMalas = 0;
+  var respuesta1 = document.getElementsByName("r1");
+  var respuesta2 = document.getElementsByName("r2");
+  var respuesta3 = document.getElementsByName("r3");
+
+  if(respuesta1[0] == false && respuesta1[1] == false && respuesta1[2] == false){
+    alert("Porfavor, completar la pregunta número 1");
+  }
+} */
